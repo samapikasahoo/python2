@@ -1,0 +1,19 @@
+print("welcome to the treasure island")
+print("your mission is to find the treasure")
+choice1 = input('you are at the cross road,where  do you want to go? Type "left" or "right".').lower()
+if choice1 == "left":
+ choice2 = input('you have in the lake.There is a island in a lake.Type wait for "wait" a boat or type "swim" to across river.').lower()
+else:
+   print("you are in the hole,game over")
+if choice2 == "wait":
+ choice3 = input("you arrived at island,there is 3 doors,one red ,one yellow and one blue .which colour do you choose?").lower()
+if choice3 == "red":
+     print("you are in danger,game over")
+elif choice3== "blue":
+        print("you are the winner")
+elif choice3=="yellow":
+        print("you are afraid,game over")
+
+
+
+
